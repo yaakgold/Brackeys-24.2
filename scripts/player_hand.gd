@@ -21,7 +21,15 @@ func add_card():
 	
 	set_card_positions()
 
+func remove_card(i: int):
+	cards.remove_at(i)
+	set_card_positions()
+
 func set_card_positions():
 	for c in cards:
-		c.position.x = ((1920.0 * .5) + (CARD_GAP * cards.find(c)))
-		c.position.y = 1080 - 230 - CARD_BOTTOM_PAD
+		c.global_position.x = ((1920.0 * .5) + (CARD_GAP * cards.find(c)))
+		c.global_position.y = 1080 - 230 - CARD_BOTTOM_PAD
+
+func _on_card_placed_here():
+	#TODO: Do the actual card placement stuff
+	add_card()

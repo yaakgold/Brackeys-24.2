@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="CardTest" load_steps=2 format=3 uid="uid://ctjjfrlsce0ij"]
+
+[ext_resource type="Script" path="res://scripts/cards/card_test.gd" id="1_sn8un"]
+
+[resource]
+script = ExtResource("1_sn8un")
+name = "This is a test"
+cost = 1
+desc = "Test desc"

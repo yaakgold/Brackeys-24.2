@@ -1,7 +1,8 @@
-[gd_scene load_steps=6 format=3 uid="uid://bao4o77d7qwgv"]
+[gd_scene load_steps=7 format=3 uid="uid://bao4o77d7qwgv"]
 
 [ext_resource type="Script" path="res://scripts/card.gd" id="1_mfsqv"]
 [ext_resource type="Texture2D" uid="uid://cbqhwdx4upbtb" path="res://images/CARD_BG.png" id="1_wy2dc"]
+[ext_resource type="Resource" uid="uid://ctjjfrlsce0ij" path="res://data/cards/CardTest.tres" id="3_ejb6n"]
 [ext_resource type="Texture2D" uid="uid://cbppwqnm5t3o" path="res://images/SecondImg.png" id="3_kwccp"]
 [ext_resource type="LabelSettings" uid="uid://digxmf2ijvelx" path="res://data/CardDescSettings.tres" id="4_j5nlx"]
 
@@ -11,6 +12,7 @@ size = Vector2(170, 290)
 [node name="Card" type="Sprite2D"]
 texture = ExtResource("1_wy2dc")
 script = ExtResource("1_mfsqv")
+cardData = ExtResource("3_ejb6n")
 
 [node name="Icon" type="Sprite2D" parent="."]
 position = Vector2(0, -86)
