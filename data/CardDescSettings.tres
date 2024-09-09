@@ -1,0 +1,7 @@
+[gd_resource type="LabelSettings" load_steps=2 format=3 uid="uid://digxmf2ijvelx"]
+
+[ext_resource type="FontFile" uid="uid://cv5rqffakwn1" path="res://data/ProtestGuerrilla-Regular.ttf" id="1_euqtc"]
+
+[resource]
+font = ExtResource("1_euqtc")
+font_size = 24
