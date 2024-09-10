@@ -1,9 +1,12 @@
-[gd_resource type="Resource" script_class="CardTest" load_steps=2 format=3 uid="uid://ctjjfrlsce0ij"]
+[gd_resource type="Resource" script_class="CardTest" load_steps=3 format=3 uid="uid://ctjjfrlsce0ij"]
 
 [ext_resource type="Script" path="res://scripts/cards/card_test.gd" id="1_sn8un"]
+[ext_resource type="Texture2D" uid="uid://cpq628j4lbdo0" path="res://images/FirstImg.png" id="2_j047a"]
 
 [resource]
 script = ExtResource("1_sn8un")
 name = "This is a test"
 cost = 1
 desc = "Test desc"
+sprite = ExtResource("2_j047a")
+type = 0
